@@ -1,4 +1,4 @@
-# peridot [![Build Status](https://secure.travis-ci.org/xeqi/peridot.png)](http://travis-ci.org/xeqi/peridot)
+# peridot [![Build Status](https://secure.travis-ci.org/xeqi/peridot.png)](http://travis-ci.org/xeqi/peridot) [![Dependencies Status](http://jarkeeper.com/xeqi/peridot/status.png)](http://jarkeeper.com/xeqi/peridot)
 
 peridot is an interaction library for [ring](https://github.com/ring-clojure/ring) apps. Its functionality is based on an partial port of [Rack::Test](https://github.com/brynary/rack-test)'s test suite.
 
