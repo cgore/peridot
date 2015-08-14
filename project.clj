@@ -20,7 +20,8 @@
                                    ;; use 1.6 for development
                                    ;; cider requires it
                                    ^:replace [org.clojure/clojure "1.6.0"]]
-                    :resource-paths ["test-resources"]}
+                   :plugins [[lein-ancient "0.6.7"]]
+                   :resource-paths ["test-resources"]}
              ;; use the relevant clojure version for testing
              :1.3 {:dependencies [^:replace [org.clojure/clojure "1.3.0"]]}
              :1.4 {:dependencies [^:replace [org.clojure/clojure "1.4.0"]]}
